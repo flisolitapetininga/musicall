@@ -19,7 +19,7 @@
 		}
 		
 		public function select(){
-			$sql = 'SELECT '.$this->campo.' FROM '.$this->tabela.((isset($this->condicao))? $this->condicao : '');
+			$sql = 'SELECT '.$this->campo.' FROM '.$this->tabela.((isset($this->condicao))? ' WHERE '.$this->condicao : '');
 			$query = mysql_query($sql);
 			$query = mysql_fetch_object($query);
 			
