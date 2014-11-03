@@ -33,7 +33,7 @@
         <input type="file" name="logo"/>
     </p>
     <p>
-        <label>Clientes usuários:</label>
+        <label>Clientes usuários: <span class="add">adicionar cliente</span></label>
         <br/>
         <!-- <input type="text" name="cliente[]"/> -->
     </p>
