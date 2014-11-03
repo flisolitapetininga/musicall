@@ -22,6 +22,9 @@ body,html{
             font-size:10px;
             text-align:center;
             font-style:italic;
+            border-bottom:solid 1px #CCC;
+            padding:3px 0px;
+            background:#CCC;
         }
         #e ul a{
             width:100%;
@@ -34,6 +37,9 @@ body,html{
             font-size:12px;
             border-bottom:solid 1px #CCC;
         }
+            #e ul a li:hover{
+                background:#E2E2E2;
+            }
 #d{
     float:left;
     padding:5px;

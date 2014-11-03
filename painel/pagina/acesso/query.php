@@ -16,7 +16,11 @@
 	//consulta
 	$dados = $crud->select();
 	
-	$_SESSION['radio'] = json_encode($dados);
+	if(sizeof($dados->codigo) == 1){
+	    $_SESSION['radio'] = json_encode($dados);
+	}else{
+	    session_unset();
+	}
 	
 	header('Location: ../../');
 
