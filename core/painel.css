@@ -2,6 +2,7 @@ body,html{
     margin:0px;
     padding:0px;
     height:100%;
+    font-family:Arial;
 }
 #e{
     width:120px;
@@ -9,6 +10,31 @@ body,html{
     background:#F2F2F2;
     float:left;
 }
+    #e ul{
+        margin:0px;
+        padding:0px;
+        list-style:none;
+        width:100%;
+    }
+        #e ul div{
+            width:100%;
+            color:#C00;
+            font-size:10px;
+            text-align:center;
+            font-style:italic;
+        }
+        #e ul a{
+            width:100%;
+            text-decoration:none;
+        }
+        #e ul a li{
+            width:110px;
+            padding:10px 0px 10px 10px;
+            color:#000;
+            font-size:12px;
+            border-bottom:solid 1px #CCC;
+        }
 #d{
     float:left;
+    padding:5px;
 }

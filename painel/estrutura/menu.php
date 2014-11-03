@@ -1,4 +1,5 @@
 <ul>
-    <li>rádio</li>
-    <li>cliente</li>
+    <div><?=$usuario->nome;?></div>
+    <a href="#"><li>rádio</li></a>
+    <a href="#"><li>cliente</li></a>
 </ul>

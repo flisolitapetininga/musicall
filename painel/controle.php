@@ -2,6 +2,7 @@
 session_start();
 
 if(isset($_SESSION['radio'])){
+    $usuario = json_decode($_SESSION['radio']);
     $pagina = array('inicio');
     
     //estrutura de pagina
