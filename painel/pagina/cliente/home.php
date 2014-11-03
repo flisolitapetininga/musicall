@@ -1,4 +1,4 @@
-<form method="post" action="./pagina/radio/query.php" id="formcliente">
+<form method="post" action="./pagina/cliente/query.php" id="formcliente">
     <h1>Cadastro de clientes</h1>
     <p>
         <label>Nome:</label>
@@ -6,7 +6,7 @@
         <input type="text" name="nome"/>
     </p>
     <p>
-        <label>Login: (no mínimo 3 digitos)</label>
+        <label>Login: (no mínimo 3 e no máximo 18 digitos)</label>
         <br/>
         <input type="text" name="uname"/>
     </p>
@@ -27,9 +27,8 @@
          $obj[3].onclick = function(){
             var erro = 0;
             if($obj[0].value.length < 1){ erro++ }
-            if($obj[1].value.length < 3){ erro++ }
+            if($obj[1].value.length < 3 && $obj[1].value.length > 18){ erro++ }
             if($obj[2].value.length < 6){ erro++ }
-            
             if(erro == 0){
                 $formcliente.submit();
             }else{
