@@ -53,7 +53,6 @@
             $formcliente = document.getElementById('formcliente'),
             $btn = $obj.length - 1,
             $addInput = document.getElementsByClassName('add')[0];
-         
         $addInput.onclick = function(){
             addInput();
             delInput();
@@ -96,6 +95,9 @@
                     $liRemove.parentNode.removeChild($liRemove);
                 }
             }
+    }
+    function autocomplete(){
+        
     }
     console.log('Desenvolvido por Gustavo Mathias');
 </script>

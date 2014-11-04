@@ -3,6 +3,7 @@ body,html{
     padding:0px;
     height:100%;
     font-family:Arial;
+    overflow:hidden;
 }
 #e{
     width:120px;
@@ -42,7 +43,10 @@ body,html{
             }
 #d{
     float:left;
-    padding:5px 20px;
+    padding:0px 10px;
+    height:100%;
+    width:87%;
+    overflow:auto;
 }
 .add{
     background:url('../imagem/mais.png')  5px center no-repeat;
