@@ -35,7 +35,7 @@
     <p>
         <label>Clientes usuários: <span class="add">adicionar cliente</span></label>
         <br/>
-        <!-- <input type="text" name="cliente[]"/> -->
+        <ol id="clientes"></ol>
     </p>
     <p>
         <input type="button" value="Salvar"/>
@@ -50,18 +50,52 @@
 <script type="text/javascript">
     window.onload = function(){
         var $obj = document.getElementsByTagName('input'),
-            $formcliente = document.getElementById('formcliente');
-         $obj[10].onclick = function(){
-            var erro = 0;
-            if($obj[0].value.length < 1){ erro++ }
-            if($obj[1].value.length < 3 && $obj[1].value.length > 18){ erro++ }
-            if($obj[2].value.length < 6){ erro++ }
-            if(erro == 0){
-                $formcliente.submit();
-            }else{
-                alert('Algum campo não está conforme o exigido.');
+            $formcliente = document.getElementById('formcliente'),
+            $btn = $obj.length - 1,
+            $addInput = document.getElementsByClassName('add')[0];
+         
+        $addInput.onclick = function(){
+            addInput();
+            delInput();
+        }
+          
+           
+           
+           
+           
+           
+           
+            
+         //$obj[$btn].onclick = function(){
+            //
+         //}
+    }
+    function addInput(){
+        var $liElement = document.createElement('LI'),//criar li
+            $inputElement = document.createElement('INPUT'), //criar input
+            $spanElement = document.createElement('SPAN'), //criar span
+            $parentElement = document.getElementById('clientes'), //ul
+            i = document.getElementsByClassName('cli').length; //contar quantos li
+            
+            $liElement.setAttribute('class', 'cli');//attr
+            $inputElement.setAttribute('type','text');//attr
+            $inputElement.setAttribute('name','clientes[]');//attr
+            $spanElement.setAttribute('class','del');
+            $spanElement.innerHTML = 'remover cliente';
+            
+            $parentElement.appendChild($liElement);// adiciona li
+            document.getElementsByClassName('cli')[i].appendChild($inputElement); //adiciona input dentro do ultimo li criado
+            document.getElementsByClassName('cli')[i].appendChild($spanElement);
+    }
+    function delInput(){
+        var $remove = document.getElementsByClassName('del'),
+            i = 0;
+            for(i = 0; i < $remove.length; i++){
+                $remove[i].onclick = function(){
+                    $liRemove = this.parentNode;
+                    $liRemove.parentNode.removeChild($liRemove);
+                }
             }
-         }
     }
     console.log('Desenvolvido por Gustavo Mathias');
 </script>
