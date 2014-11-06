@@ -1,4 +1,4 @@
-<form method="post" action="./pagina/cliente/query.php" id="formcliente">
+<form method="post" action="./pagina/cliente/query.php" id="formcliente" enctype="multipart/form-data">
     <h1>Cadastro de rádios</h1>
     <p>
         <label>Nome:</label>
@@ -57,7 +57,7 @@
             addInput();
             delInput();
         }
-          
+
            
            
            
@@ -65,9 +65,23 @@
            
            
             
-         //$obj[$btn].onclick = function(){
-            //
-         //}
+         $obj[$btn].onclick = function(){
+            if($obj[0].value == ''){
+                alert('preencha o campo nome');
+                $obj[0].focus();
+            }else if($obj[1].value == ''){
+                alert('preencha o campo url da rádio');
+                $obj[1].focus();
+            }else if($obj[3].value == ''){
+                alert('preencha o campo IP');
+                $obj[3].focus();
+            }else if($obj[4].value == ''){
+                alert('preencha o campo porta');
+                $obj[4].focus();
+            }else{
+                
+            }
+         }
     }
     function addInput(){
         var $liElement = document.createElement('LI'),//criar li
@@ -79,12 +93,14 @@
             $liElement.setAttribute('class', 'cli');//attr
             $inputElement.setAttribute('type','text');//attr
             $inputElement.setAttribute('name','clientes[]');//attr
+            $inputElement.setAttribute('class','addcli');//attr
             $spanElement.setAttribute('class','del');
             $spanElement.innerHTML = 'remover cliente';
             
             $parentElement.appendChild($liElement);// adiciona li
             document.getElementsByClassName('cli')[i].appendChild($inputElement); //adiciona input dentro do ultimo li criado
             document.getElementsByClassName('cli')[i].appendChild($spanElement);
+            
     }
     function delInput(){
         var $remove = document.getElementsByClassName('del'),
@@ -96,8 +112,25 @@
                 }
             }
     }
-    function autocomplete(){
-        
-    }
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     console.log('Desenvolvido por Gustavo Mathias');
 </script>
