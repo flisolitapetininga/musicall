@@ -18,11 +18,6 @@
 			$this->valor = $valor;
 		}
 		
-		### -- teste --###
-		public function getValor(){
-		    return $this->valor;
-		}
-		
 		public function select(){
 			$sql = 'SELECT '.$this->campo.' FROM '.$this->tabela.((isset($this->condicao))? ' WHERE '.$this->condicao : '');
 			$query = mysql_query($sql) or die ('erro na consulta:: '.mysql_error());
