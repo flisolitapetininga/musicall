@@ -22,6 +22,6 @@
 	    session_unset();
 	}
 	
-	header('Location: ../');
+	header('Location: ../../');
 
 ?>
