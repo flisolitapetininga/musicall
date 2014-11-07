@@ -1,5 +1,4 @@
 <ul>
-    <div><?=$usuario->nome;?></div>
-    <a href="?p=inicio"><li>início</li></a>
+    <div>Seja bem vindo <?=$usuario->nome;?></div>
     <a href="?p=sair"><li>sair</li></a>
 </ul>
