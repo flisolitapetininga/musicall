@@ -1,8 +1,8 @@
 <?php
 	session_start();
 	
-	require_once '../../../core/conexao.php';
-	require_once '../../../core/crud.php';
+	require_once '../../core/conexao.php';
+	require_once '../../core/crud.php';
 	
 	//conexão com o banco de dados
 	$c = new conectar();
@@ -22,6 +22,6 @@
 	    session_unset();
 	}
 	
-	header('Location: ../../');
+	header('Location: ../');
 
 ?>

@@ -3,7 +3,7 @@ session_start();
 
 if(isset($_SESSION['radio'])){
     $usuario = json_decode($_SESSION['radio']);
-    $pagina = array('inicio','radio','cliente','sair');
+    $pagina = array('inicio','sair');
     
     //estrutura de pagina
     echo '<div id="e">';

@@ -1,4 +1,4 @@
-<div><image src="../imagem/logo.png" width="400" height="135"/></div>
+<div><image src="imagem/logo.png" width="400" height="135"/></div>
 <div>
     <form method="post" action="./pagina/acesso/query.php" id="formacesso">
         <input type="text" name="username" placeholder="Nome do usuário"/>
