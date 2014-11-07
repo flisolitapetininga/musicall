@@ -1,11 +1,23 @@
-<form method="post" action="">
-    <label>Nome:</label>
-    <input type="text" name="nome"/>
-    <label>Senha:</label>
-    <input type="text" name="senha"/>
+<form method="post" action="pagina/arquivo/query.php" id="formulario">
+    <label>Local:</label>
+    <input type="text" name="local" value="../../../"/>
     
-    <textarea name="contas"></textarea>
-    
-    <input type="button" value="Salvar"/>
-    <input type="button" value="Apagar"/>
+    <input type="button" value="Gerar"/>
 </form>
+
+<script type="text/javascript">
+    window.onload = function(){
+        var $input = document.getElementsByTagName('input'),
+            $form = document.getElementById('formulario');
+            
+            $input[1].onclick = function(){
+                if($input[0].value != ''){
+                    console.log('Arquivo enviado com sucesso.');
+                    $form.submit();
+                }else{
+                    console.log('Campo vazio.');
+                    $input[0].focus();
+                }
+            }
+    }
+</script>

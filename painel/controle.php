@@ -10,7 +10,7 @@ if(isset($_SESSION['radio'])){
         require_once 'estrutura/menu.php';
     echo '</div>';
     echo '<div id="d">';
-        require_once 'pagina/inicio/home.php';
+        require_once (isset($_GET['p']) && in_array($_GET['p'], $pagina))? 'pagina/'.$_GET['p'].'/home.php':'pagina/inicio/home.php';
     echo '</div>';
 }else{
     require_once 'pagina/acesso/home.php';
