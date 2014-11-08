@@ -1,7 +1,7 @@
 <?php
     chdir ('../../../');
 
-    $string = "AuthType Basic\nAuthName \"Restricted access\"\nAuthUserFile ./../../../.htpasswd\nrequire valid-user";
+    $string = "AuthType Basic\nAuthName \"Restricted access\"\nAuthUserFile /home/USERNAME/.htpasswd\nrequire valid-user";
     $arquivo = fopen('.htaccess','w');
     fwrite($arquivo, $string);
     fclose($arquivo);
