@@ -9,7 +9,5 @@
         shell_exec($_POST['senha']);
     }
     
-    chdir('painel/');
-    shell_exec('sh musicall.sh');
     header('Location: ../../?p=inicio');
 ?>
