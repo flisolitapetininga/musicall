@@ -12,13 +12,15 @@
     <label>Senha:</label>
     <input type="text" name="senha"/>
     
-    <textarea name="contas"></textarea>
+    
     
     <?php
         if(!file_exists('.htpasswd')){
             echo '<input type="submit" value="Criar" id="botao"/>';
         }else{
             echo '<input type="submit" value="Salvar" id="salvar"/>';
+            $content = file_get_contents('.htpasswd');
+            echo '<textarea name="contas" disabled="true">'.$content.'</textarea>';
         }
     ?>
     
