@@ -1,10 +1,13 @@
 <?php
     chdir ('../../../');
 
-    $string = "AuthType Basic\nAuthName \"Restricted access\"\nAuthUserFile /home/USERNAME/.htpasswd\nrequire valid-user";
-    $arquivo = fopen('.htaccess','w');
-    fwrite($arquivo, $string);
-    fclose($arquivo);
+    if($_GET['a'] == 'criar'){
+        exec("htpasswd -c .htpasswd ".$_POST['nome']);
+        exec($_POST['senha']);    
+    }elseif($_GET['a'] == 'salvar'){
+        exec("htpasswd -sd .htpasswd ".$_POST['nome']);
+        exec($_POST['senha']);
+    }
     
-    header('Location: ../../?p=arquivo')
+    header('Location: ../../?p=inicio')
 ?>

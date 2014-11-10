@@ -1,4 +1,12 @@
-<form method="post" action="pagina/inicio/query.php" id="formulario">
+<?php
+    chdir('../');
+    if(!file_exists('.htpasswd')){
+        echo '<form method="post" action="pagina/inicio/query.php?a=criar" id="formulario">';
+    }else{
+        echo '<form method="post" action="pagina/inicio/query.php?a=salvar" id="formulario">';
+    }
+?>
+
     <label>Nome:</label>
     <input type="text" name="nome"/>
     <label>Senha:</label>
@@ -6,24 +14,12 @@
     
     <textarea name="contas"></textarea>
     
-    <input type="button" value="Adicionar"/>
-    <input type="button" value="Salvar"/>
+    <?php
+        if(!file_exists('.htpasswd')){
+            echo '<input type="submit" value="Criar" id="botao"/>';
+        }else{
+            echo '<input type="submit" value="Salvar" id="salvar"/>';
+        }
+    ?>
+    
 </form>
-
-
-
-<script type="text/javascript">
-    window.onload = function(){
-        var $input = document.getElementsByTagName('input'),
-            $form = document.getElementById('formulario');
-            
-            $input[2].onclick = function(){ //botão adicionar
-                $form.setAttribute('action','pagina/inicio/query.php?a=adicionar');
-                //$form.submit();
-            }
-            $input[3].onclick = function(){ //botão adicionar
-                $form.setAttribute('action','pagina/inicio/query.php?a=alterar');
-                //$form.submit();
-            }
-    }
-</script>
