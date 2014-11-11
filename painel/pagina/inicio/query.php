@@ -2,11 +2,9 @@
     chdir ('../../../');
 
     if($_GET['a'] == 'criar'){
-        shell_exec("htpasswd -c .htpasswd ".$_POST['nome']."");
-        shell_exec($_POST['senha']);
+        shell_exec("htpasswd -bc .htpasswd ".$_POST['nome']." ".$_POST['senha']);
     }elseif($_GET['a'] == 'salvar'){
-        shell_exec("htpasswd .htpasswd ".$_POST['nome']);
-        shell_exec($_POST['senha']);
+        shell_exec("htpasswd -b .htpasswd ".$_POST['nome']." ".$_POST['senha']);
     }
     
     header('Location: ../../?p=inicio');
