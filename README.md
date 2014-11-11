@@ -1,4 +1,4 @@
-painel de controle MusicAll
+painel de controle Rádio MusicAll
 
 - acesso
 - htpasswd
