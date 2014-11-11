@@ -24,10 +24,5 @@
 			$query = mysql_fetch_object($query);
 			return $query;
 		}
-		public function insert(){
-		    $sql = 'INSERT INTO '.$this->tabela.' ('.$this->campo.') VALUES ('.$this->valor.')';
-		    $query = mysql_query($sql) or die ('erro na consulta:: '.mysql_error());
-		    return $query;
-		}
 	}
 ?>
