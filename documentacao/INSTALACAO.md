@@ -5,7 +5,7 @@ Para instalar o sistema você precisa configurar o arquivo **conexão.php** loca
 No inicio do arquivo, você vai localizar os seguintes atributos.
 
 `php
-    private $local = '';
+    private $local = '';\n
 	private $banco = '';
 	private $usuario ='';
 	private $senha = '';
