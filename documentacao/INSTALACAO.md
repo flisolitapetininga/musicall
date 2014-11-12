@@ -1,7 +1,7 @@
 [voltar](https://github.com/gustavomathias/musicall/blob/master/documentacao/README.md)
 #Instalação e configuração do Painel.
 
-Primeiro passo é colar a pasta painel no diretório que deseja proteger.<br>
+Primeiro passo é copiar a pasta *painel* no diretório que deseja proteger.<br>
 Para instalar o sistema você precisa configurar o arquivo **conexão.php** localizado dentro da pasta **painel/core/**, onde fica os dados do banco de dados. <br>
 No inicio do arquivo, você vai localizar os seguintes atributos.
 
