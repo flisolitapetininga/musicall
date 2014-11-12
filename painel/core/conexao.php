@@ -24,5 +24,18 @@
 		    $q2 = mysql_query($sql_createtable) or die('falha ao criar TABLE :: '.mysql_error());
 		    $q3 = mysql_query($sql_insertuser)or die('falha ao inserir Administradores :: '.mysql_error());
 		}
+		
+		protected function setHost($local){
+		    $this->local = $local;
+		}
+		protected function setDB($banco){
+		    $this->banco = $banco;
+		}
+		protected function setUser($usuario){
+		    $this->usuario = $usuario;
+		}
+		protected function setPasswd($senha){
+		    $this->senha = $senha;
+		}
 	}
 ?>
