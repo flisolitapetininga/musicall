@@ -6,5 +6,5 @@
  - adicionar usuário
  - alterar senha
  - excluir usuário
-- htaccess
+- [htaccess](https://github.com/gustavomathias/musicall/blob/master/documentacao/HTACCESS.md)
 - sair
