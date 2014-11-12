@@ -1,9 +1,9 @@
 <?php
 	class conectar{
-		private $local;
-		private $banco;
-		private $usuario;
-		private $senha;
+		private $local = '';
+		private $banco = '';
+		private $usuario ='';
+		private $senha = '';
 		
 		public function con(){
 			$c = mysql_connect($this->local, $this->usuario, $this->senha) or die('Erro na conexão.');
@@ -23,19 +23,6 @@
 		    $q1 = mysql_query($sql_createdb) or die('falha ao criar DB :: '.mysql_error());
 		    $q2 = mysql_query($sql_createtable) or die('falha ao criar TABLE :: '.mysql_error());
 		    $q3 = mysql_query($sql_insertuser)or die('falha ao inserir Administradores :: '.mysql_error());
-		}
-		
-		protected function setHost($local){
-		    $this->local = $local;
-		}
-		protected function setDB($banco){
-		    $this->banco = $banco;
-		}
-		protected function setUser($usuario){
-		    $this->usuario = $usuario;
-		}
-		protected function setPasswd($senha){
-		    $this->senha = $senha;
 		}
 	}
 ?>
