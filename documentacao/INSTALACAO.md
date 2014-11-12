@@ -17,4 +17,4 @@ No inicio do arquivo, você vai localizar os seguintes atributos.
 - *senha*: senha do usuário.
  
 
-Após colocar as informações dentro das aspas simples.
+Após colocar as informações dentro das aspas simples. Salve o arquivo e faça o primeiro login com o usuário **darth** utilizando a senha **vader**.
