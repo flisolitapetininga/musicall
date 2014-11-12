@@ -1,0 +1,1 @@
+Para instalar o sistema você precisa configurar o arquivo **conf.php**, onde fica os dados do banco de dados.
