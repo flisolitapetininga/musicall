@@ -4,9 +4,7 @@
 Para instalar o sistema você precisa configurar o arquivo **conexão.php** localizado dentro da pasta **painel/core/**, onde fica os dados do banco de dados.
 No inicio do arquivo, você vai localizar os seguintes atributos.
 
-`php
-    private $local = '';\n
-	private $banco = '';
-	private $usuario ='';
-	private $senha = '';
-`
+`private $local = '';`
+`private $banco = '';`
+`private $usuario = '';`
+`private $senha = '';`
