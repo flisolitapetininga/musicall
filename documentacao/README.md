@@ -1,4 +1,4 @@
-# **painel de controle Rádio MusicAll**
+# **painel de proteção para diretórios**
 
 - [instalação e configuração](https://github.com/gustavomathias/musicall/blob/master/documentacao/INSTALACAO.md)
 - [acesso](https://github.com/gustavomathias/musicall/blob/master/documentacao/ACESSO.md)
