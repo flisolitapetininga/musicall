@@ -5,4 +5,4 @@
 
 - [adicionar usuário.](https://github.com/gustavomathias/musicall/blob/master/documentacao/HTPASSWD_ADICIONAR.md)
 - [alterar senha.](https://github.com/gustavomathias/musicall/blob/master/documentacao/HTPASSWD_ALTERAR.md)
-- excluir usuário.
+- [excluir usuário.](https://github.com/gustavomathias/musicall/blob/master/documentacao/HTPASSWD_EXCLUIR.md)
