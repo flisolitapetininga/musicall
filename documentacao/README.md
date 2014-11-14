@@ -7,4 +7,5 @@
  - [alterar senha](https://github.com/gustavomathias/musicall/blob/master/documentacao/HTPASSWD_ALTERAR.md)
  - [excluir usuário](https://github.com/gustavomathias/musicall/blob/master/documentacao/HTPASSWD_EXCLUIR.md)
 - [htaccess](https://github.com/gustavomathias/musicall/blob/master/documentacao/HTACCESS.md)
+ - [gerar htaccess](https://github.com/gustavomathias/musicall/blob/master/documentacao/HTACCESS_GERAR.md)
 - [sair](https://github.com/gustavomathias/musicall/blob/master/documentacao/SAIR.md)
