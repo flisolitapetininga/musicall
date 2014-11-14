@@ -7,6 +7,6 @@ Digite o nome do usuario sem acentos e espaço no campo referente ao nome, e a s
 ![alt adicionar](imagem/le_tela-adicionar1.jpg)
 
 Depois de digitar as informações necessárias, clique em *salvar* (no caso do o arquivo **.htpasswd** não tiver criado no diretorio, no lugar de *salvar*, vai estar escrito *criar*).<br>
-Após adicionar um novo usuário, será exibido abaixo dos campos, os nomes dos usuários e suas senhas criptografadas.criptografadas
+Após adicionar um novo usuário, será exibido abaixo dos campos, os nomes dos usuários e suas senhas criptografadas.
 
 ![alt adicionar](imagem/le_tela-adicionar2.jpg)
