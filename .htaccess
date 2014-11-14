@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted access"
+AuthUserFile /home/kerubin2/Web/musicall/.htpasswd
+require valid-user
