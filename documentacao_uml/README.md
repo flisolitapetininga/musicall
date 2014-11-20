@@ -1,7 +1,8 @@
 #Curso UML
 profº Renato Tilelli.
 
-###SIndce
+###Indice
 - Diagrama de Sequência.
+ - 
 - Diagrama de Atividade.
 - Maquina de Estado.
