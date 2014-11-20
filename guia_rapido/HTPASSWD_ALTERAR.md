@@ -1,4 +1,4 @@
-[voltar](https://github.com/gustavomathias/musicall/blob/master/documentacao/README.md)
+[voltar](https://github.com/gustavomathias/musicall/blob/master/guia_rapido/README.md)
 #Alterar senha dos usuários no arquivo .htpasswd.
 
 Na pagina de **.htpasswd**, você vai digitar o nome do usuário que deseja alterar o nome no campo referênte ao nome e no campo senha você vai digitar a nova senha que deseja para este usuário.<br>

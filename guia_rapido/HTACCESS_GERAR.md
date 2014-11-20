@@ -1,4 +1,4 @@
-[voltar](https://github.com/gustavomathias/musicall/blob/master/documentacao/README.md)
+[voltar](https://github.com/gustavomathias/musicall/blob/master/guia_rapido/README.md)
 #Gerar arquivo .htaccess.
 
 Para gerar o arquivo **.htaccess**, clique no botão **Gerar aquivo .htaccess**.

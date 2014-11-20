@@ -1,4 +1,4 @@
-[voltar](https://github.com/gustavomathias/musicall/blob/master/documentacao/README.md)
+[voltar](https://github.com/gustavomathias/musicall/blob/master/guia_rapido/README.md)
 #Excluir usuários do arquivo .htpasswd.
 
 Para remover um usuário do arquivo **.htpasswd**, você vai digitar o nome do usuário que deseja e selecionar o box **excluir usuário?**, depois clique em salvar conforme a imagem a baixo.<br/>

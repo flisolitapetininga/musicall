@@ -1,4 +1,4 @@
-[voltar](https://github.com/gustavomathias/musicall/blob/master/documentacao/README.md)
+[voltar](https://github.com/gustavomathias/musicall/blob/master/guia_rapido/README.md)
 #Tela de Acesso.
 
 Para acessar o sistema é necessário que o usuário tenha um username e uma chave de acesso.

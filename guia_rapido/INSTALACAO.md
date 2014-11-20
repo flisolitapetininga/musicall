@@ -1,4 +1,4 @@
-[voltar](https://github.com/gustavomathias/musicall/blob/master/documentacao/README.md)
+[voltar](https://github.com/gustavomathias/musicall/blob/master/guia_rapido/README.md)
 #Instalação e configuração do Painel.
 
 Primeiro passo é copiar a pasta *painel* no diretório que deseja proteger.<br>

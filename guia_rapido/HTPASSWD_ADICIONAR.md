@@ -1,4 +1,4 @@
-[voltar](https://github.com/gustavomathias/musicall/blob/master/documentacao/README.md)
+[voltar](https://github.com/gustavomathias/musicall/blob/master/guia_rapido/README.md)
 #Adicionar usuários no arquivo .htpasswd.
 
 Na pagina de **.htpasswd**, você vai adicionar os usuários com suas senhas, para dar permissão de acesso para cada usuário.<br>
