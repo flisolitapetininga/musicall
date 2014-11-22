@@ -1,4 +1,4 @@
-##Diagrama de Atividade > Excluir Usuário
+##Diagrama de Atividade > Adicionar Usuário
 -
 [voltar](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/README.md)
 -
