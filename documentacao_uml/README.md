@@ -11,3 +11,6 @@ profº Renato Tilelli.
  - [sair](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DS_SAIR.md)
 - Diagrama de Atividade.
  - [acesso.](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DA_ACESSO.md)
+ - [adicionar usuário.](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DA_HTPASSWD_ADICIONAR.md)
+ - [alterar usuário.](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DA_HTPASSWD_ALTERAR.md)
+ - [excluir usuário.](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DA_HTPASSWD_EXCLUIR.md)
