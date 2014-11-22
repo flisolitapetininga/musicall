@@ -7,5 +7,7 @@ profº Renato Tilelli.
  - [adicionar usuário](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DS_HTPASSWD_ADICIONAR.md)
  - [alterar usuário](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DS_HTPASSWD_ALTERAR.md)
  - [excluir usuário](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DS_HTPASSWD_EXCLUIR.md)
+ - [autenticação apache](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DS_HTACCESS.md)
+ - [sair](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DS_SAIR.md)
 - Diagrama de Atividade.
 - Maquina de Estado.
