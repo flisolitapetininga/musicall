@@ -1,5 +1,5 @@
-##Diagrama de Atividade > Excluir Usuário
+##Diagrama de Atividade > Acesso
 -
 [voltar](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/README.md)
 -
-![alt Acesso](imagem/atividade_htpasswd_alterar.jpg)
+![alt Acesso](imagem/atividade_sair.jpg)
