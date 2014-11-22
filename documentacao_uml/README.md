@@ -15,3 +15,5 @@ profº Renato Tilelli.
  - [alterar usuário.](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DA_HTPASSWD_ALTERAR.md)
  - [excluir usuário.](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DA_HTPASSWD_EXCLUIR.md)
  - [sair.](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DA_SAIR.md)
+- Diagrama de Caso de Uso
+ - [diagrama](https://github.com/gustavomathias/musicall/blob/master/documentacao_uml/DCU_DIAGRAMA.md)
